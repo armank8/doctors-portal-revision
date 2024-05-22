@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import Info from "./Info";
 import MakeAppointment from "./MakeAppointment";
 import Services from "./Services";
+import Testimonials from "./Testimonials";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Info></Info>
         <Services></Services>
         <MakeAppointment></MakeAppointment>
+        <Testimonials></Testimonials>
     </div>
   )
 }
