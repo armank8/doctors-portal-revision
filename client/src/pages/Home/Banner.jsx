@@ -2,7 +2,7 @@ import chair from "../../assets/images/chair.png";
 export default function Banner() {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-100">
+      <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={chair} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
@@ -12,7 +12,7 @@ export default function Banner() {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Get Started</button>
           </div>
         </div>
       </div>
