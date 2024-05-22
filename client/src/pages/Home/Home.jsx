@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Info from "./Info";
+import MakeAppointment from "./MakeAppointment";
 import Services from "./Services";
 
 
@@ -9,6 +10,7 @@ export default function Home() {
         <Banner></Banner>
         <Info></Info>
         <Services></Services>
+        <MakeAppointment></MakeAppointment>
     </div>
   )
 }
