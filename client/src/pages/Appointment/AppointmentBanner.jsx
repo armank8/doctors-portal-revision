@@ -1,11 +1,8 @@
-import { useState } from "react";
 import chair from "../../assets/images/chair.png";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
-import { format } from "date-fns";
 
-export default function AppointmentBanner() {
-  const [date, setDate] = useState(new Date());
+export default function AppointmentBanner({ date, setDate }) {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -16,10 +13,8 @@ export default function AppointmentBanner() {
             selected={date}
             onSelect={setDate}
           ></DayPicker>
-             <p>You have selected : {format(date,'PP')}</p>
         </div>
       </div>
-   
     </div>
   );
 }
